@@ -35,7 +35,7 @@
 ## Demo
 
 You can see the live demo of this project here:  
--https://bhanusankarasetty.github.io/ToDo-App/
+- https://bhanusankarasetty.github.io/ToDo-App/
 
 ---
 
@@ -50,15 +50,15 @@ You can see the live demo of this project here:
 
 2. **Install dependencies**
 
--Make sure you have Node.js installed. Then run:
+- Make sure you have Node.js installed. Then run:
 
     ```
     npm install
     ```
 
--Follow steps mentioned in tailwind vite doc to install tailwind
+- Follow steps mentioned in tailwind vite doc to install tailwind
 
--Run the following command to install react-icons
+- Run the following command to install react-icons
 
     ```
     npm install react-icons --save
@@ -67,8 +67,9 @@ You can see the live demo of this project here:
     npm install uuid
     ```
 
-#File structure
+## File structure
 
+```
 todo-app/
 │
 ├── public/                 # Public assets (e.g., favicon, images)
@@ -83,15 +84,16 @@ todo-app/
 ├── vite.config.js          # Vite configuration
 └── README.md               # This file
 ```
-#How to Use
--Type a task description in the input box (minimum 4 characters).
 
--Press Save button or hit Enter to add the task.
+## How to Use
+- Type a task description in the input box (minimum 4 characters).
 
--Check the box to mark a task as completed or uncompleted.
+- Press Save button or hit Enter to add the task.
 
--Use the Edit button to modify a task — edited task will appear in the input box.
+- Check the box to mark a task as completed or uncompleted.
 
--Use the Delete button to remove a task.
+- Use the Edit button to modify a task — edited task will appear in the input box.
 
--Toggle Show Accomplished checkbox to filter completed tasks.
+- Use the Delete button to remove a task.
+
+- Toggle Show Accomplished checkbox to filter completed tasks.
