@@ -144,7 +144,7 @@ function App() {
           {todos.map((item) => {
             return (
               (showFinished || !item.isCompleted) && (
-                <div key={item.id} className="todo flex my-3 justify-around px-3 py-2 hover:bg-[#80e6e5] transition-colors duration-300 cursor-pointer">
+                <div key={item.id} className="todo flex my-3 justify-between px-3 py-2 hover:bg-[#80e6e5] transition-colors duration-300 cursor-pointer">
                   <div className="flex gap-5">
                     <input
                       name={item.id}
